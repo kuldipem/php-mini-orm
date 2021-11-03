@@ -38,7 +38,7 @@
  */
 class Entity {
     /**
-     * Working instance of MysqliDb created earlier
+     * Working instance of DB created earlier
      *
      * @var DB
      */
@@ -534,7 +534,7 @@ class Entity {
     /**
      * Catches calls to undefined methods.
      *
-     * Provides magic access to private functions of the class and native public mysqlidb functions
+     * Provides magic access to private functions of the class and native public DB functions
      *
      * @param string $method
      * @param mixed $arg
